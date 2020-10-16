@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* BackIconNavIssueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* BackIconNavIssueTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		252C00B4972166F6478909E0 /* libPods-BackIconNavIssue.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC0C964689030BD6E8128790 /* libPods-BackIconNavIssue.a */; };
@@ -18,6 +17,14 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* BackIconNavIssueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* BackIconNavIssueTests.m */; };
 		33986E38AB00778406E64E45 /* libPods-BackIconNavIssue-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 465D273EC37FFCB33AEFD492 /* libPods-BackIconNavIssue-tvOSTests.a */; };
+		692A619E25399AFC0095854A /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692A619D25399AFC0095854A /* Dummy.swift */; };
+		692A619F25399AFC0095854A /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692A619D25399AFC0095854A /* Dummy.swift */; };
+		692A61A025399AFC0095854A /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692A619D25399AFC0095854A /* Dummy.swift */; };
+		692A61A125399AFC0095854A /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692A619D25399AFC0095854A /* Dummy.swift */; };
+		692A61DF2539CAA40095854A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 692A61DE2539CAA40095854A /* LaunchScreen.storyboard */; };
+		692A61E02539CAA40095854A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 692A61DE2539CAA40095854A /* LaunchScreen.storyboard */; };
+		692A61E12539CAA40095854A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 692A61DE2539CAA40095854A /* LaunchScreen.storyboard */; };
+		692A61E22539CAA40095854A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 692A61DE2539CAA40095854A /* LaunchScreen.storyboard */; };
 		CB1981B1CF7BA6942770B533 /* libPods-BackIconNavIssue-BackIconNavIssueTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEFE3BB394003F42DD98862 /* libPods-BackIconNavIssue-BackIconNavIssueTests.a */; };
 		D855215AC0958B77FDB5E945 /* libPods-BackIconNavIssue-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC02D66FC7AE94A2E8E73489 /* libPods-BackIconNavIssue-tvOS.a */; };
 /* End PBXBuildFile section */
@@ -48,7 +55,6 @@
 		13B07F961A680F5B00A75B9A /* BackIconNavIssue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackIconNavIssue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = BackIconNavIssue/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = BackIconNavIssue/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = BackIconNavIssue/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BackIconNavIssue/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BackIconNavIssue/main.m; sourceTree = "<group>"; };
@@ -60,6 +66,10 @@
 		61A075B6819E6BD7A483F40F /* Pods-BackIconNavIssue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackIconNavIssue.debug.xcconfig"; path = "Target Support Files/Pods-BackIconNavIssue/Pods-BackIconNavIssue.debug.xcconfig"; sourceTree = "<group>"; };
 		692A611E2539954A0095854A /* BackIconNavIssue-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BackIconNavIssue-Bridging-Header.h"; sourceTree = "<group>"; };
 		692A611F2539954B0095854A /* BackIconNavIssue-tvOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BackIconNavIssue-tvOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		692A619B25399AFB0095854A /* BackIconNavIssueTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BackIconNavIssueTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		692A619C25399AFB0095854A /* BackIconNavIssue-tvOSTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BackIconNavIssue-tvOSTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		692A619D25399AFC0095854A /* Dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
+		692A61DE2539CAA40095854A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = BackIconNavIssue/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C56C2AF5C9DF64255C8B781 /* Pods-BackIconNavIssue-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackIconNavIssue-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-BackIconNavIssue-tvOS/Pods-BackIconNavIssue-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		8B7CA9B365501BDE08477179 /* Pods-BackIconNavIssue-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackIconNavIssue-tvOS.release.xcconfig"; path = "Target Support Files/Pods-BackIconNavIssue-tvOS/Pods-BackIconNavIssue-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		AA88BB5B57E718E9E0A8B835 /* Pods-BackIconNavIssue-BackIconNavIssueTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackIconNavIssue-BackIconNavIssueTests.release.xcconfig"; path = "Target Support Files/Pods-BackIconNavIssue-BackIconNavIssueTests/Pods-BackIconNavIssue-BackIconNavIssueTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -131,13 +141,16 @@
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				692A619D25399AFC0095854A /* Dummy.swift */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
-				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				692A611E2539954A0095854A /* BackIconNavIssue-Bridging-Header.h */,
 				692A611F2539954B0095854A /* BackIconNavIssue-tvOS-Bridging-Header.h */,
+				692A619B25399AFB0095854A /* BackIconNavIssueTests-Bridging-Header.h */,
+				692A619C25399AFB0095854A /* BackIconNavIssue-tvOSTests-Bridging-Header.h */,
+				692A61DE2539CAA40095854A /* LaunchScreen.storyboard */,
 			);
 			name = BackIconNavIssue;
 			sourceTree = "<group>";
@@ -299,6 +312,7 @@
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
+						LastSwiftMigration = 1200;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
@@ -311,6 +325,7 @@
 					};
 					2D02E48F1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 1200;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2D02E47A1E0B4A5D006451C7;
 					};
@@ -343,6 +358,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				692A61E02539CAA40095854A /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,7 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				692A61DF2539CAA40095854A /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+				692A61E12539CAA40095854A /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +384,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				692A61E22539CAA40095854A /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,6 +588,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				692A619F25399AFC0095854A /* Dummy.swift in Sources */,
 				00E356F31AD99517003FC87E /* BackIconNavIssueTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -579,6 +598,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				692A619E25399AFC0095854A /* Dummy.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -588,6 +608,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				692A61A025399AFC0095854A /* Dummy.swift in Sources */,
 				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -596,6 +617,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				692A61A125399AFC0095854A /* Dummy.swift in Sources */,
 				2DCD954D1E0B4F2C00145EB5 /* BackIconNavIssueTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -615,24 +637,14 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				13B07FB21A68108700A75B9A /* Base */,
-			);
-			name = LaunchScreen.xib;
-			path = BackIconNavIssue;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3FF9B44A4A6FAE41D1A47A76 /* Pods-BackIconNavIssue-BackIconNavIssueTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -647,6 +659,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BackIconNavIssueTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BackIconNavIssue.app/BackIconNavIssue";
 			};
 			name = Debug;
@@ -655,7 +670,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AA88BB5B57E718E9E0A8B835 /* Pods-BackIconNavIssue-BackIconNavIssueTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = BackIconNavIssueTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -667,6 +684,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BackIconNavIssueTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BackIconNavIssue.app/BackIconNavIssue";
 			};
 			name = Release;
@@ -679,7 +698,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEAD_CODE_STRIPPING = NO;
+				DEAD_CODE_STRIPPING = YES;
 				INFOPLIST_FILE = BackIconNavIssue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -723,6 +742,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7C56C2AF5C9DF64255C8B781 /* Pods-BackIconNavIssue-tvOS.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -755,6 +775,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B7CA9B365501BDE08477179 /* Pods-BackIconNavIssue-tvOS.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -786,8 +807,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 462BC27BE09876D9F52EF00A /* Pods-BackIconNavIssue-tvOSTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -804,6 +827,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.BackIconNavIssue-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "BackIconNavIssue-tvOSTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BackIconNavIssue-tvOS.app/BackIconNavIssue-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
@@ -813,8 +839,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 03772A8145F050B2A84E2FE5 /* Pods-BackIconNavIssue-tvOSTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -831,6 +859,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.BackIconNavIssue-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "BackIconNavIssue-tvOSTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BackIconNavIssue-tvOS.app/BackIconNavIssue-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
