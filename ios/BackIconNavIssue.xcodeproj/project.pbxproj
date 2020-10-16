@@ -18,7 +18,7 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* BackIconNavIssueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* BackIconNavIssueTests.m */; };
 		33986E38AB00778406E64E45 /* libPods-BackIconNavIssue-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 465D273EC37FFCB33AEFD492 /* libPods-BackIconNavIssue-tvOSTests.a */; };
-		A948AEF391ADD8286C7079AB /* libPods-BackIconNavIssueTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7250F9414053135FD9E8F66 /* libPods-BackIconNavIssueTests.a */; };
+		CB1981B1CF7BA6942770B533 /* libPods-BackIconNavIssue-BackIconNavIssueTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEFE3BB394003F42DD98862 /* libPods-BackIconNavIssue-BackIconNavIssueTests.a */; };
 		D855215AC0958B77FDB5E945 /* libPods-BackIconNavIssue-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC02D66FC7AE94A2E8E73489 /* libPods-BackIconNavIssue-tvOS.a */; };
 /* End PBXBuildFile section */
 
@@ -54,14 +54,16 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BackIconNavIssue/main.m; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* BackIconNavIssue-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BackIconNavIssue-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* BackIconNavIssue-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BackIconNavIssue-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF9B44A4A6FAE41D1A47A76 /* Pods-BackIconNavIssue-BackIconNavIssueTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackIconNavIssue-BackIconNavIssueTests.debug.xcconfig"; path = "Target Support Files/Pods-BackIconNavIssue-BackIconNavIssueTests/Pods-BackIconNavIssue-BackIconNavIssueTests.debug.xcconfig"; sourceTree = "<group>"; };
 		462BC27BE09876D9F52EF00A /* Pods-BackIconNavIssue-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackIconNavIssue-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-BackIconNavIssue-tvOSTests/Pods-BackIconNavIssue-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		465D273EC37FFCB33AEFD492 /* libPods-BackIconNavIssue-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BackIconNavIssue-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61A075B6819E6BD7A483F40F /* Pods-BackIconNavIssue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackIconNavIssue.debug.xcconfig"; path = "Target Support Files/Pods-BackIconNavIssue/Pods-BackIconNavIssue.debug.xcconfig"; sourceTree = "<group>"; };
 		7C56C2AF5C9DF64255C8B781 /* Pods-BackIconNavIssue-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackIconNavIssue-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-BackIconNavIssue-tvOS/Pods-BackIconNavIssue-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		8B7CA9B365501BDE08477179 /* Pods-BackIconNavIssue-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackIconNavIssue-tvOS.release.xcconfig"; path = "Target Support Files/Pods-BackIconNavIssue-tvOS/Pods-BackIconNavIssue-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		AA88BB5B57E718E9E0A8B835 /* Pods-BackIconNavIssue-BackIconNavIssueTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackIconNavIssue-BackIconNavIssueTests.release.xcconfig"; path = "Target Support Files/Pods-BackIconNavIssue-BackIconNavIssueTests/Pods-BackIconNavIssue-BackIconNavIssueTests.release.xcconfig"; sourceTree = "<group>"; };
 		AC0C964689030BD6E8128790 /* libPods-BackIconNavIssue.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BackIconNavIssue.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0CB602E126683D3E8BA499D /* Pods-BackIconNavIssueTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackIconNavIssueTests.debug.xcconfig"; path = "Target Support Files/Pods-BackIconNavIssueTests/Pods-BackIconNavIssueTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D7250F9414053135FD9E8F66 /* libPods-BackIconNavIssueTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BackIconNavIssueTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCEFE3BB394003F42DD98862 /* libPods-BackIconNavIssue-BackIconNavIssueTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BackIconNavIssue-BackIconNavIssueTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC02D66FC7AE94A2E8E73489 /* libPods-BackIconNavIssue-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BackIconNavIssue-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -74,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A948AEF391ADD8286C7079AB /* libPods-BackIconNavIssueTests.a in Frameworks */,
+				CB1981B1CF7BA6942770B533 /* libPods-BackIconNavIssue-BackIconNavIssueTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +149,8 @@
 				03772A8145F050B2A84E2FE5 /* Pods-BackIconNavIssue-tvOSTests.release.xcconfig */,
 				B0CB602E126683D3E8BA499D /* Pods-BackIconNavIssueTests.debug.xcconfig */,
 				FB9DAB893A2A3D72AEA0D078 /* Pods-BackIconNavIssueTests.release.xcconfig */,
+				3FF9B44A4A6FAE41D1A47A76 /* Pods-BackIconNavIssue-BackIconNavIssueTests.debug.xcconfig */,
+				AA88BB5B57E718E9E0A8B835 /* Pods-BackIconNavIssue-BackIconNavIssueTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -160,7 +164,7 @@
 				AC0C964689030BD6E8128790 /* libPods-BackIconNavIssue.a */,
 				DC02D66FC7AE94A2E8E73489 /* libPods-BackIconNavIssue-tvOS.a */,
 				465D273EC37FFCB33AEFD492 /* libPods-BackIconNavIssue-tvOSTests.a */,
-				D7250F9414053135FD9E8F66 /* libPods-BackIconNavIssueTests.a */,
+				BCEFE3BB394003F42DD98862 /* libPods-BackIconNavIssue-BackIconNavIssueTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -209,6 +213,7 @@
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				6E3BBC6C750369DDCD4ECA3B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,6 +235,7 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				2AD6F509ADC09986DF7BC847 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -373,6 +379,24 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
+		2AD6F509ADC09986DF7BC847 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BackIconNavIssue/Pods-BackIconNavIssue-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BackIconNavIssue/Pods-BackIconNavIssue-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2AE3C803FE48D85AD9A57DB4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -388,7 +412,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BackIconNavIssueTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-BackIconNavIssue-BackIconNavIssueTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -429,6 +453,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E3BBC6C750369DDCD4ECA3B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BackIconNavIssue-BackIconNavIssueTests/Pods-BackIconNavIssue-BackIconNavIssueTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BackIconNavIssue-BackIconNavIssueTests/Pods-BackIconNavIssue-BackIconNavIssueTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9983F4E596D67CDDD62F9173 /* [CP] Check Pods Manifest.lock */ = {
@@ -580,7 +622,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0CB602E126683D3E8BA499D /* Pods-BackIconNavIssueTests.debug.xcconfig */;
+			baseConfigurationReference = 3FF9B44A4A6FAE41D1A47A76 /* Pods-BackIconNavIssue-BackIconNavIssueTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -603,7 +645,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB9DAB893A2A3D72AEA0D078 /* Pods-BackIconNavIssueTests.release.xcconfig */;
+			baseConfigurationReference = AA88BB5B57E718E9E0A8B835 /* Pods-BackIconNavIssue-BackIconNavIssueTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
