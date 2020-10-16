@@ -58,6 +58,8 @@
 		462BC27BE09876D9F52EF00A /* Pods-BackIconNavIssue-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackIconNavIssue-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-BackIconNavIssue-tvOSTests/Pods-BackIconNavIssue-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		465D273EC37FFCB33AEFD492 /* libPods-BackIconNavIssue-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BackIconNavIssue-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61A075B6819E6BD7A483F40F /* Pods-BackIconNavIssue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackIconNavIssue.debug.xcconfig"; path = "Target Support Files/Pods-BackIconNavIssue/Pods-BackIconNavIssue.debug.xcconfig"; sourceTree = "<group>"; };
+		692A611E2539954A0095854A /* BackIconNavIssue-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BackIconNavIssue-Bridging-Header.h"; sourceTree = "<group>"; };
+		692A611F2539954B0095854A /* BackIconNavIssue-tvOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BackIconNavIssue-tvOS-Bridging-Header.h"; sourceTree = "<group>"; };
 		7C56C2AF5C9DF64255C8B781 /* Pods-BackIconNavIssue-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackIconNavIssue-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-BackIconNavIssue-tvOS/Pods-BackIconNavIssue-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		8B7CA9B365501BDE08477179 /* Pods-BackIconNavIssue-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackIconNavIssue-tvOS.release.xcconfig"; path = "Target Support Files/Pods-BackIconNavIssue-tvOS/Pods-BackIconNavIssue-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		AA88BB5B57E718E9E0A8B835 /* Pods-BackIconNavIssue-BackIconNavIssueTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackIconNavIssue-BackIconNavIssueTests.release.xcconfig"; path = "Target Support Files/Pods-BackIconNavIssue-BackIconNavIssueTests/Pods-BackIconNavIssue-BackIconNavIssueTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -134,6 +136,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				692A611E2539954A0095854A /* BackIconNavIssue-Bridging-Header.h */,
+				692A611F2539954B0095854A /* BackIconNavIssue-tvOS-Bridging-Header.h */,
 			);
 			name = BackIconNavIssue;
 			sourceTree = "<group>";
@@ -297,8 +301,12 @@
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1200;
+					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 1200;
 						ProvisioningStyle = Automatic;
 					};
 					2D02E48F1E0B4A5D006451C7 = {
@@ -624,7 +632,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3FF9B44A4A6FAE41D1A47A76 /* Pods-BackIconNavIssue-BackIconNavIssueTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -648,7 +655,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AA88BB5B57E718E9E0A8B835 /* Pods-BackIconNavIssue-BackIconNavIssueTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = BackIconNavIssueTests/Info.plist;
@@ -671,6 +677,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				INFOPLIST_FILE = BackIconNavIssue/Info.plist;
@@ -682,6 +689,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = BackIconNavIssue;
+				SWIFT_OBJC_BRIDGING_HEADER = "BackIconNavIssue-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -692,6 +702,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = BackIconNavIssue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -702,6 +713,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = BackIconNavIssue;
+				SWIFT_OBJC_BRIDGING_HEADER = "BackIconNavIssue-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -713,6 +726,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -729,6 +743,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.BackIconNavIssue-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "BackIconNavIssue-tvOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
@@ -741,6 +758,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -757,6 +775,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.BackIconNavIssue-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "BackIconNavIssue-tvOS-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
